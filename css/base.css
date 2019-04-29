@@ -1,0 +1,17 @@
+body {
+  background-color: orange;
+  width: 960px;
+}
+
+main {
+  width: 960px;
+  text-align: center;
+  display: flex;
+  align-content: center;
+  margin: 0px auto;
+}
+
+section {
+  width: 960px;
+  display: flex;
+}
