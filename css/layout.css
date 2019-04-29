@@ -36,7 +36,7 @@
 }
 
 /* mobile views */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+@media only screen and (min-width: 375px) and (max-width: 767px) {
   main {
     flex-direction: column;
   }
@@ -106,28 +106,37 @@
 
 }
 
-/* desktop views */
+/* tablet views */
 @media only screen and (min-width: 768px) and (max-width: 960px) {
   main {
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
   }
 
-  /* .under_beside {
-    flex-direction: row;
-  } */
-
   .container {
+    width: 760px;
     position: flex;
     flex-direction: row;
     flex-wrap: wrap;
+  }
+
+  .small {
+    width: 760px;
+    position: flex;
+  }
+
+  .ef {
+    flex-direction: row;
+  }
+
+  .gh {
+    flex-direction: row;
   }
 
   .a {
     background-color: yellowgreen;
     width: 100%;
     height: 100px;
-    order: 1;
   }
   
   .b {
@@ -180,74 +189,84 @@
   }
 }
 
+/* desktop views */
 @media only screen and (min-width: 960px) {
   main {
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
   }
 
-  /* .under_beside {
-    flex-direction: row;
-  } */
-
   .container {
+    width: 760px;
     position: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
 
+  .small {
+    width: 760px;
+    position: flex;
+  }
+
+  .ef {
+    flex-direction: row;
+  }
+
+  .gh {
+    flex-direction: row;
+  }
+
   .a {
-    background-color: yellowgreen;
+    background-color: honeydew;
     width: 100%;
     height: 100px;
-    order: 1;
   }
   
   .b {
-    background-color: yellow;
+    background-color: hotpink;
     width: 200px;
     height: 600px;
   }
   
   .c {
-    background-color: whitesmoke;
+    background-color: indianred;
     width: 380px;
     height: 200px;
   }
   
   .d {
-    background-color: wheat;
+    background-color: indigo;
     width: 380px;
     height: 200px;
   }
   
   .e {
-    background-color: violet;
+    background-color: ivory;
     width: 190px;
     height: 250px;
   
   }
   
   .f {
-    background-color: turquoise;
+    background-color: khaki;
     width: 190px;
     height: 250px;
   }
   
   .g {
-    background-color: tomato;
+    background-color: lavender;
     width: 190px;
     height: 250px;
   }
   
   .h {
-    background-color: thistle;
+    background-color: lawngreen;
     width: 190px;
     height: 250px;
   }
   
   .i {
-    background-color: teal;
+    background-color: lightcoral;
     width: 760px;
     height: 150px;
   }
